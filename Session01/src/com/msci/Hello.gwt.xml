@@ -3,5 +3,6 @@
 <module rename-to="hello">
 	<inherits name="com.google.gwt.user.User" />
 	<source path="client" />
-	<entry-point class="com.msci.client.HelloEntryPoint" />
+	<!-- <entry-point class="com.msci.client.HelloEntryPoint" /> -->
+	<entry-point class="com.msci.client.UIEntryPoint" />
 </module>
