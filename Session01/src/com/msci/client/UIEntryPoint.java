@@ -22,7 +22,7 @@ public class UIEntryPoint implements EntryPoint {
 		final FlexTable table = new FlexTable();
 		table.setBorderWidth(1);
 		table.setCellSpacing(1);
-
+		
 		RootPanel.get().add(table);
 		RootPanel.get().add(hpanel);
 		RootPanel.get().add(btn);
